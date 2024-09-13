@@ -1,0 +1,32 @@
+Trasnsaction_Calender = 
+ADDCOLUMNS(
+    CALENDAR(MIN(FactTable[Transaction_Date]), MAX(FactTable[Transaction_Date])),
+    "Year", YEAR([Date]),
+    "MonthNum", MONTH([Date]),
+    "Month", FORMAT([Date], "MMMM"),
+    "Month & Year", FORMAT([Date], "MMM YYYY"),
+    "Q_Num", QUARTER([Date]),
+    "Quarter", "Q" & QUARTER([Date]),
+    "Year & Quarter", "Q" & QUARTER([Date]) & " " & YEAR([Date]),
+    "Start of the Month", EOMONTH([Date], -1) + 1,
+    "Day", DAY([Date]),
+    "Weekday", WEEKDAY([Date], 1),  // 1 makes Sunday = 1, Saturday = 7
+    "Weekday Name", FORMAT([Date], "dddd"),
+    "Week_Num", WEEKNUM([Date], 1),  // 1 makes the week start on Sunday
+    "Is Weekend", IF(WEEKDAY([Date], 1) >= 6, TRUE(), FALSE())
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
