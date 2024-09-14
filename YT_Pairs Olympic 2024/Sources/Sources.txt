@@ -1,0 +1,7 @@
+Data Set - https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games
+
+Inspiration YT - https://youtu.be/rMYacj8PreA?si=uR3fBUDg5nDfWfjc
+
+
+Similar Dashboard of Other - https://app.powerbi.com/view?r=eyJrIjoiNTNiYjUyNTktNzVhOC00OWRhLWIzNDgtZDE2MDk2NjU1ZTQyIiwidCI6Ijg0ZDI3MGQyLTBiYzUtNGQ1NS1iZjBhLTI3NGYxYTU3NmNiZiJ9&pageName=4b854c474655009dc310
+Credit - https://www.kaggle.com/mustaphaoutgougua
